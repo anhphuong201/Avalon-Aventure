@@ -105,10 +105,10 @@ h2{
     text-align: left;
     z-index: 2;
     transition: 0.5s;
+    display: none;
   }
   }
   .nav-links ul{
-    display: none;
     width: fit-content;
     padding: 30px;
     transition: 0.5s;
