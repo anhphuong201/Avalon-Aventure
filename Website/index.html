@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AVALON ADVENTURES</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--Hero image-->
+ <section class="header">
+  <!--Navigation bar-->
+  <div id="hamburger-button" class="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <nav>
+  <a href="index.html"><img src="css/photos/logo.png" width="100px" padding="5px"></a>
+  </div>
+  <div id="nav-responsive" class="nav-links">
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Our Services</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="text-box">
+    <h1>Avalon Adventure</h1>
+    <p1>Welcome to family-friendly experiences on the Avalon Peninsula of Newfoundland!</p1>
+  </div>
+
+  
+<script>
+  document.getElementById("hamburger-button").onclick=function(){myFunction()};
+  function myFunction(){
+    document.getElementById("nav-responsive").classlist.toggle("active");
+  }
+</script>
+</section>
+
+  <!--Company services-->
+  <div class="services">
+    <h2>OUR SERVICES</h2>
+    <p2>Avalon Adventures is a family-friendly tourist adventure company on the Avalon Peninsula of Newfoundland. <br>The company offers a range of outdoor activities and cultural experiences designed for families to create lasting memories together.</p2>
+    <br>
+    <br>
+    <div class="services-block">
+      <img src="css/photos/brewery.jpg" style="float:left">
+      <div class="services-title"><a href="#">Adult Brewery Crawl</a></div>
+      <div class="explorebutton"><a href="#">Explore now</a></div>
+    </div>
+  <div class="services-block">
+      <img src="css/photos/culture.jpg" style="float:left">
+      <div class="services-title"><a href="#">Family Culture Package</a></div>
+      <div class="explorebutton"><a href="#">Explore now</a></div>
+    </div>
+  <div class="services-block">
+      <img src="css/photos/ferryland.jpg" style="float:left">
+      <div class="services-title"><a href="#">Family Ferryland Adventure</a></div>
+      <div class="explorebutton"><a href="#">Explore now</a></div>
+    </div> 
+  <div class="services-block">
+      <img src="css/photos/hiking.jpg" style="float:left">
+      <div class="services-title"><a href="#">Novice East Coast Hiking Experience</a></div>
+      <div class="explorebutton"><a href="#">Explore now</a></div>
+   </div> 
+  <div class="services-block">
+    <img src="css/photos/whale-watching.jpg" style="float:left">
+    <div class="services-title"><a href="#">Whale Watching</a></div>
+    <div class="explorebutton"><a href="#">Explore now</a></div>
+   </div> 
+  </div>
+</body>
+</html>
