@@ -1180,3 +1180,135 @@ p2{
     margin-top: 0%;
   }
 }
+
+
+/*Contact subpage*/
+/*Contact boxes*/
+.contact-page-content{
+  position: inline;
+  padding-top: 50px;
+}
+.contact-detail{
+  padding-top: 50px;
+}
+.address-phone-email{
+  text-align: center;
+  float: left;
+  background-color:#6cbe4c;
+  width: 20%;
+  height:200px;
+  margin-left: 10%;
+  color:#1d4286;
+}
+.address-phone-email h1{
+  font-weight:bolder;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 10%;
+  font-size: 150%;
+}
+.address-phone-email img{
+  width: 30%;
+  filter: brightness(0) invert(1);
+  padding-bottom: 5%;
+}
+
+  /*Contact form*/
+.contact-background-page{
+  background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)), url("photos/whale-cover.jpg")
+}
+.contact-form{
+  background-color:#1d4286;
+  height: 130vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+.contact-form h1{
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+}
+form{
+  display:block;
+  margin-left: 15%;
+  line-height: 2.5;
+}
+label{
+  color: white;
+}
+.small-placeholder{
+  width: 80%;
+  height: 30px;
+}
+.big-placeholder{
+  width: 80%;
+  height: 80px;
+}
+::placeholder{
+  letter-spacing: 1.2px;
+}
+.submit-contact-button{
+  background-color:#6cbe4c;
+  font-weight: bolder;
+  font-size: 120%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-right: 35%;
+  margin-left: 35%;
+}
+.submit-contact-button:hover{
+  background-color:#5dd72d
+}
+
+/*Responsive Contact subpage*/
+/*Contact boxes*/
+@media screen and (max-width: 700px){
+.contact-page-content{
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+}
+.contact-detail{
+  padding-top: 50px;
+}
+.address-phone-email{
+  background-color:#6cbe4c;
+  width: 80%;
+  height:120px;
+  margin-left: 10%;
+  color:#1d4286;
+  margin-bottom: 10px;
+}
+.address-phone-email h1{
+  font-weight:bolder;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  font-size: 120%;
+}
+.address-phone-email p1{
+  font-size: 90%;
+  padding-top: 1px;
+}
+.address-phone-email img{
+  width: 10%;
+  filter: brightness(0) invert(1);
+  padding-bottom: 1px;
+}
+.contact-form{
+  background-color:#1d4286;
+  height: 110vh;
+  margin-top: 0.5%;
+  width: 80%;
+  margin-left: 10%;
+}
+.submit-contact-button{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+}
+
+

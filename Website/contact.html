@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACT</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--Javascript-->
+<script src="js/app.js"></script>
+
+<!--Menu bar-->
+  <div class="subpage-menu">
+    <nav id="main-menu">
+      <ul>
+        <li><a href="home.html">Home Page</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+       </ul>
+    </nav>
+  </div>
+  <input type="checkbox" id="hamburger-input" class="burger-shower"/>
+  <label id="hamburger-menu" for="hamburger-input">
+    <nav id="sidebar-menu">
+      <ul>
+       <li><a href="home.html">Home Page</a></li>
+       <li><a href="about.html">About Us</a></li>
+       <li><a href="services.html">Our Services</a></li>
+       <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </label>
+
+  <!--Content-->
+<div class="contact-background-page">
+<div class="contact-page-content">
+  <div class="contact-detail">
+    <div class="address-phone-email">
+      <h1>MAIN OFFICE</h1>
+      <img src="css/photos/icon-address.png"><br>
+      <p1> 123 Freshwater Road, St. John's, NL A1B 2B1 </p1>
+    </div>
+    <div class="address-phone-email">
+      <h1>PHONE NUMBER</h1>
+      <img src="css/photos/icon-phone.png"><br>
+      <p1> (709) 555-5555 </p1>
+    </div>
+    <div class="address-phone-email">
+      <h1>EMAIL</h1>
+      <img src="css/photos/icon-mail.png"><br>
+      <p1> info@AvalonAdventures.ca </p1>
+    </div>
+  </div>
+</div>
+ <br>
+ <!--Contact form-->
+ <div class="contact-form" onsubmit="return validateForm()">
+  <h1> Contact Us</h1>
+  <form name="form">
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" class="small-placeholder" placeholder="Name">
+    <br>
+    <label for="email">Email</label><br>
+    <input type="text" name="email" id="email" class="small-placeholder" placeholder="Email">
+    <br>
+    <label for="phone">Phone</label><br>
+    <input type="integer" name="phone" id="phone" class="small-placeholder" placeholder="Phone">
+    <br>
+    <label for="question">Question</label><br>
+    <input type="text" name="question" id="question" class="big-placeholder" placeholder="Your question">
+    <br>
+    <button type="submit" class="submit-contact-button" onclick="validate-form()">Submit</button>
+  </form>
+ </div>
+ <br>
+ <!--Footer-->
+ <div class="footer">
+  <ul class="social-media">
+    <li><a href="#"><img src="css/photos/facebook.png"></a></li>
+    <li><a href="#"><img src="css/photos/instagram.png"></a></li>
+    <li><a href="#"><img src="css/photos/twitter.png"></a></li>
+    <li><a href="#"><img src="css/photos/pinterest.png"></a></li>
+    <li><a href="#"><img src="css/photos/youtube.png"></a></li>
+  </ul>
+  <p99>Avalon Adventure</p99>
+  <p100>123 Freshwater Road, St. John's, NL A1C 2N4</p100>
+  <ul class="footer-menu">
+    <li><a href="home.html">Home Page</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="services.html">Our Services</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</div>
+</div>
+</body>
+</html>
