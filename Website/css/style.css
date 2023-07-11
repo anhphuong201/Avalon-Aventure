@@ -2,7 +2,9 @@ body{
   margin: 0px;
   font-family: Roboto;
 }
-/*Hero image*/
+
+/*1. INDEX PAGE*/
+/*1.1 Hero image*/
 .header{
   min-height: 80vh;
   width: 100%;
@@ -257,7 +259,7 @@ p2{
 }
 
 
-/*About Us Page*/
+/*2. About Us Page*/
 /*Subpage Menu*/
 .subpage-menu {
   min-height: 10vh;
@@ -297,7 +299,7 @@ p2{
   padding-left: 30%;
   text-align: justify;
   text-align-last: left;
-  font-size: 80%;
+  font-size: 100%;
   position: relative;
   display: inline-block;
 }
@@ -317,7 +319,7 @@ p2{
   .about-us p{
     text-align:justify;
     text-align-last: left;
-    font-size: 80%;
+    font-size: 100%;
     position: relative;
     display:block;
     margin-right: 0%;
@@ -341,7 +343,7 @@ p2{
   padding-top: 1%;
   padding-left: 5%;
   color:#1d4286;
-  font-size: 200%;
+  font-size: 300%;
   text-align:left;
   font-size: 150%;
 }
@@ -353,7 +355,7 @@ p2{
   color: rgb(54, 54, 54);
   text-align: justify;
   text-align-last: left;
-  font-size: 80%;
+  font-size: 100%;
 }
 .vision{
   background-color:#1d4286;
@@ -371,7 +373,7 @@ p2{
   padding-top: 1%;
   padding-right: 5%;
   color:#6cbe4c;
-  font-size: 200%;
+  font-size: 300%;
   text-align:right;
   font-size: 150%;
 }
@@ -383,7 +385,7 @@ p2{
   color:lightgrey;
   text-align: justify;
   text-align-last: left;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 /*About Us page| Our team*/
@@ -446,17 +448,17 @@ p2{
   border-radius: 50%;
 }
 .our-team p1{
-  font-size: 80%;
+  font-size: 100%;
   font-weight: bold;
   color:#1d4286;
 }
 .our-team p2{
-  font-size: 80%;
+  font-size: 100%;
   font-weight: bold;
   color: rgb(54, 54, 54);
 }
 .our-team p3{
-  font-size: 70%;
+  font-size: 90%;
   font-weight:initial;
   color: rgb(54, 54, 54);
   text-align: justify;
@@ -476,6 +478,8 @@ p2{
 .our-team button a{
   text-decoration: none;
   color: white;
+  font-size: 100%;
+  font-weight: bold;
 }
 .our-team button a:hover{
   text-decoration: underline;
@@ -541,7 +545,7 @@ p2{
   }
 }
 
-/*Services page/
+/*3. Services page/
 /*Services list format*/
 .services{
   position: relative;
@@ -553,22 +557,25 @@ p2{
   margin-bottom: 1%;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 0;
 }
 .services img{
   width: 25%;
   object-fit: contain;
   margin-left: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   float: left;
   padding-right: 5%;
+  padding-top: 3%;
   overflow: hidden;
 }
 .services-text{
   padding-left: 10%;
 }
 .services h2{
-  color:#6cbe4c;
+  color:#5dd72d;
   font-size: 150%;
-  padding-top: 0;
   text-align: left;
 }
 .services p2{
@@ -581,11 +588,12 @@ p2{
 }
 .services p3 a{
   float: right;
+  font-weight: bold;
   margin-right: 5%;
-  color:#6cbe4c;
+  color:#5dd72d;
 }
 /*Responsive service list*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
   .services{
     position: relative;
     background-color: #1d4286;
@@ -604,14 +612,15 @@ p2{
     padding: 1%;
   }
   .services h2{
-    color:#6cbe4c;
-    font-size: 100%;
+    color:#5dd72d;
+    font-size: 120%;
     padding-top: 0;
     text-align: center;
+    font-weight: bolder;
   }
   .services p2{
     color:white;
-    font-size: 80%;
+    font-size: 90%;
     text-align: left;
     display: block;
     padding-right: 5%;
@@ -622,10 +631,11 @@ p2{
     display: block;
   }
   .services p3 a{
-    font-size: 80%;
+    font-size: 90%;
+    font-weight: bold;
     float: right;
     margin-right: 5%;
-    color:#6cbe4c;
+    color:#5dd72d;
     padding-bottom: 1%;
   }
 }
@@ -635,7 +645,7 @@ p2{
 .cover-photo{
   width: 100%;
   height: 30vw;
-  background-image: linear-gradient(rgba(4,9,30,0.2), rgba(4,9,30,0.2)), url("photos/brewery-cover.jpg");
+  background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url("photos/brewery-cover.jpg");
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
@@ -663,7 +673,7 @@ p2{
 .book-now{
   padding: 1%;
   background-color: transparent;
-  border-color:#6cbe4c;
+  border-color:#5dd72d;
   border-radius: 10px;
   font-weight: bold;
   margin-left: 10%;
@@ -671,8 +681,8 @@ p2{
 }
 .book-now a{
   text-decoration: none;
-  color:#6cbe4c;
-  font-size: 100%;
+  color:#5dd72d;
+  font-size: 130%;
 }
 .book-now a:hover{
   text-decoration: underline;
@@ -701,9 +711,9 @@ p2{
 .highlight-service{
   padding: 3%;
   display: block;
-  background-color:#6cbe4c;
+  background-color:#5dd72d;
   border-radius: 10px;
-  color:#1d4286;
+  color: black;
   margin-right: 11%;
 }
 .list{
@@ -748,7 +758,7 @@ p2{
   color:#6cbe4c
 }
 .book-now-2{
-  padding: 2%;
+  padding: 3%;
   background-color:#6cbe4c;
   border-color:#6cbe4c;
   border-radius: 10px;
@@ -756,8 +766,8 @@ p2{
 }
 .book-now-2 a{
   text-decoration: none;
-  color:#1d4286;
-  font-size: 100%;
+  color: black;
+  font-size: 120%;
 }
 .book-now-2 a:hover{
   text-decoration: underline;
@@ -788,8 +798,8 @@ p2{
 }
 .call-now a{
   text-decoration: none;
-  color:#1d4286;
-  font-size: 100%;
+  color: black;
+  font-size: 120%;
 }
 .call-now a:hover{
   text-decoration: underline;
@@ -1238,15 +1248,26 @@ label{
   color: white;
 }
 .small-placeholder{
-  width: 80%;
+  width: 70%;
   height: 30px;
 }
 .big-placeholder{
-  width: 80%;
+  width: 70%;
   height: 80px;
 }
 ::placeholder{
   letter-spacing: 1.2px;
+}
+.contact-form span{
+  font-size: 80%;
+  color: red;
+  font-style: italic;
+  margin-right: 10%;
+  display: inline-block;
+}
+.contact-submit-button span{
+  font-size: 100%;
+  padding-left: 29%;
 }
 .submit-contact-button{
   background-color:#6cbe4c;
